@@ -9,7 +9,7 @@ A module for [bcccore](https://github.com/owstack/bcccore) that implements HTTP 
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-explorers commit 1f1334f] (https://github.com/bitpay/bitcore-explorers/commit/1f1334f7ea7f75ed80f62d379613a961a66403f2).
+This repository was created by copy forking [bitcore-explorers commit 1f1334f](https://github.com/bitpay/bitcore-explorers/commit/1f1334f7ea7f75ed80f62d379613a961a66403f2).
 
 ## Getting started
 
