@@ -1,0 +1,13 @@
+*.sw[a-z]
+coverage
+node_modules
+bcccore-explorers.js
+bcccore-explorers.min.js
+
+lib/errors/index.js
+npm-debug.log
+
+bower_components
+report
+.DS_Store
+tests.js

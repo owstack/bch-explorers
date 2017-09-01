@@ -1,0 +1,30 @@
+{
+  "name": "bcccore-explorers",
+  "main": "/bcccore-explorers.min.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/owstack/bcccore-explorers",
+  "authors": [
+    "Open Wallet Stack"
+  ],
+  "description": "Module to query blockchain apis for Bcccore.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "bcccore",
+    "btc",
+    "satoshi",
+    "explorer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "index.js",
+    "gulpfile.js",
+    "README.md",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "bcccore-explorers",
+  "version": "1.0.1",
+  "description": "Module to query blockchain apis for Bcccore.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "gulp coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owstack/bcccore-explorers.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "bcccore",
+    "explorer"
+  ],
+  "author": "Open Wallet Stack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owstack/bcccore-explorers/issues"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "homepage": "https://github.com/owstack/bcccore-explorers",
+  "devDependencies": {
+    "bcccore-build": "git://github.com/owstack/bcccore-build.git",
+    "brfs": "^1.2.0",
+    "browserify": "^8.1.1",
+    "chai": "^2.0.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "bcccore-lib": "git://github.com/owstack/bcccore-lib.git#master",
+    "browser-request": "^0.3.3",
+    "request": "^2.51.0"
+  }
+}
