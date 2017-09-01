@@ -1,5 +1,5 @@
-<img src="http://bcccore.io/css/images/module-explorer.png" alt="bcccore explorers" height="35">
-# Blockchain APIs for bcccore
+Bcccore Blockchain APIs
+======
 
 [![NPM Package](https://img.shields.io/npm/v/bcccore-explorers.svg?style=flat-square)](https://www.npmjs.org/package/bcccore-explorers)
 [![Build Status](https://img.shields.io/travis/owstack/bcccore-explorers.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/bcccore-explorers)
