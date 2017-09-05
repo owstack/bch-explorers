@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/owstack/bcccore-explorers",
   "devDependencies": {
-    "bcccore-build": "git://github.com/owstack/bcccore-build.git",
     "brfs": "^1.2.0",
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
     "gulp": "^3.8.10",
+    "ows-build": "git://github.com/owstack/ows-build.git",
     "sinon": "^1.12.2"
   },
   "dependencies": {
