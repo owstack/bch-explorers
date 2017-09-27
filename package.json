@@ -27,17 +27,17 @@
     "request": "browser-request"
   },
   "homepage": "https://github.com/owstack/bcccore-explorers",
+  "dependencies": {
+    "bcccore-lib": "https://github.com/owstack/bcccore-lib",
+    "browser-request": "^0.3.3",
+    "request": "^2.51.0"
+  },
   "devDependencies": {
     "brfs": "^1.2.0",
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
     "gulp": "^3.8.10",
-    "ows-build": "git://github.com/owstack/ows-build.git",
+    "ows-build": "https://github.com/owstack/ows-build",
     "sinon": "^1.12.2"
-  },
-  "dependencies": {
-    "bcccore-lib": "git://github.com/owstack/bcccore-lib.git",
-    "browser-request": "^0.3.3",
-    "request": "^2.51.0"
   }
 }
