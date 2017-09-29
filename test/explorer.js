@@ -49,7 +49,7 @@ describe('Explorer', function() {
 
   describe('getting unspent utxos', function() {
     var explorer = new Explorer();
-    var address = '371mZyMp4t6uVtcEr4DAAbTZyby9Lvia72';
+    var address = 'HBqt2mntvCKa84VGhjsK8yz71FzA9Hp8X6';
     beforeEach(function() {
       explorer.requestPost = sinon.stub();
       explorer.requestPost.onFirstCall().callsArgWith(2, null, {
@@ -98,7 +98,7 @@ describe('Explorer', function() {
       }, [invalidUtxo]);
       explorer.getUtxos(address, function(error, unspent) {
         expect(error).to.exist;
-        expect(error.name).to.equal('bchLib.ErrorInvalidArgument');
+        expect(error.name).to.equal('ows.ErrorInvalidArgument');
         expect(error.toString()).to.contain('scriptPubKey');
         callback();
       });
