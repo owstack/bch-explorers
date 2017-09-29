@@ -1,7 +1,7 @@
 {
-  "name": "bcccore-explorers",
+  "name": "bch-explorers",
   "version": "0.0.1",
-  "description": "Module to query blockchain apis for Bcccore.",
+  "description": "Module to query blockchain apis for Bch Node.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,23 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/owstack/bcccore-explorers.git"
+    "url": "https://github.com/owstack/bch-explorers.git"
   },
   "keywords": [
     "bitcoin",
-    "bcccore",
+    "bch",
     "explorer"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/owstack/bcccore-explorers/issues"
+    "url": "https://github.com/owstack/bch-explorers/issues"
   },
   "browser": {
     "request": "browser-request"
   },
-  "homepage": "https://github.com/owstack/bcccore-explorers",
+  "homepage": "https://github.com/owstack/bch-explorers",
   "dependencies": {
-    "bcccore-lib": "https://github.com/owstack/bcccore-lib",
+    "bch-lib": "https://github.com/owstack/bch-lib",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   },
