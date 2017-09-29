@@ -1,5 +1,5 @@
 # Explorers
-The `bcccore-explorers` module provides a convenient interface to retrieve unspent transaction outputs and broadcast transactions to the Bitcoin network via blockchain explorers.
+The `bch-explorers` module provides a convenient interface to retrieve unspent transaction outputs and broadcast transactions to the Bitcoin network via blockchain explorers.
 
 ## Installation
 Explorers is implemented as a separate module.
@@ -7,13 +7,13 @@ Explorers is implemented as a separate module.
 For node projects:
 
 ```
-npm install bcccore-explorers --save
+npm install bch-explorers --save
 ```
 
 For client-side projects:
 
 ```
-bower install bcccore-explorers --save
+bower install bch-explorers --save
 ```
 
 ## OWS Explorer
@@ -25,7 +25,7 @@ There are currently two methods implemented: `getUnspentUtxos` and `broadcast`. 
 #### Retrieving Unspent UTXOs for an Address (or set of)
 
 ```javascript
-var Explorer = require('bcccore-explorers').Explorer;
+var Explorer = require('bch-explorers').Explorer;
 var explorer = new Explorer();
 
 explorer.getUnspentUtxos('1Bitcoin...', function(err, utxos) {

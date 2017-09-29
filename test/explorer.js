@@ -3,14 +3,14 @@
 var sinon = require('sinon');
 var should = require('chai').should();
 var expect = require('chai').expect;
-var bcccore = require('bcccore-lib');
+var bchLib = require('bch-lib');
 var explorers = require('../');
 
 var Explorer = explorers.Explorer;
-var Address = bcccore.Address;
-var Transaction = bcccore.Transaction;
+var Address = bchLib.Address;
+var Transaction = bchLib.Transaction;
 var AddressInfo = explorers.models.AddressInfo;
-var Networks = bcccore.Networks;
+var Networks = bchLib.Networks;
 
 describe('Explorer', function() {
 
@@ -98,7 +98,7 @@ describe('Explorer', function() {
       }, [invalidUtxo]);
       explorer.getUtxos(address, function(error, unspent) {
         expect(error).to.exist;
-        expect(error.name).to.equal('bcccore.ErrorInvalidArgument');
+        expect(error.name).to.equal('bchLib.ErrorInvalidArgument');
         expect(error.toString()).to.contain('scriptPubKey');
         callback();
       });
