@@ -1,6 +1,8 @@
 Bch Blockchain APIs
 ======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/owstack/bch-explorers.svg)](https://greenkeeper.io/)
+
 [![NPM Package](https://img.shields.io/npm/v/bch-explorers.svg?style=flat-square)](https://www.npmjs.org/package/bch-explorers)
 [![Build Status](https://img.shields.io/travis/owstack/bch-explorers.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/bch-explorers)
 [![Coverage Status](https://img.shields.io/coveralls/owstack/bch-explorers.svg?style=flat-square)](https://coveralls.io/r/owstack/bch-explorers)

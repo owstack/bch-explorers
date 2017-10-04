@@ -34,10 +34,10 @@
   },
   "devDependencies": {
     "brfs": "^1.2.0",
-    "browserify": "^8.1.1",
-    "chai": "^2.0.0",
+    "browserify": "^14.4.0",
+    "chai": "^4.1.2",
     "gulp": "^3.8.10",
     "ows-build": "https://github.com/owstack/ows-build",
-    "sinon": "^1.12.2"
+    "sinon": "^4.0.0"
   }
 }
