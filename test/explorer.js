@@ -3,7 +3,7 @@
 var sinon = require('sinon');
 var should = require('chai').should();
 var expect = require('chai').expect;
-var bchLib = require('bch-lib');
+var bchLib = require('@owstack/bch-lib');
 var explorers = require('../');
 
 var Explorer = explorers.Explorer;

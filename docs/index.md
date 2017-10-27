@@ -25,7 +25,7 @@ There are currently two methods implemented: `getUnspentUtxos` and `broadcast`. 
 #### Retrieving Unspent UTXOs for an Address (or set of)
 
 ```javascript
-var Explorer = require('bch-explorers').Explorer;
+var Explorer = require('@owstack/bch-explorers').Explorer;
 var explorer = new Explorer();
 
 explorer.getUnspentUtxos('1Bitcoin...', function(err, utxos) {

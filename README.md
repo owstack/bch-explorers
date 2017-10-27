@@ -19,7 +19,7 @@ bower install bch-explorers
 At the moment, only Explorer is supported, and only getting the UTXOs for an address and broadcasting a transaction.
 
 ```javascript
-var explorers = require('bch-explorers');
+var explorers = require('@owstack/bch-explorers');
 var explorer = new explorers.Explorer();
 
 explorer.getUtxos('1Bitcoin...', function(err, utxos) {
