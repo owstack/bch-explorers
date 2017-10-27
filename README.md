@@ -7,10 +7,6 @@ Bch Blockchain APIs
 
 A module for [bch](https://github.com/owstack/bch) that implements HTTP requests to different Web APIs to query the state of the blockchain.
 
-## Attribution
-
-This repository was created by copy forking [bitcore-explorers commit 1f1334f](https://github.com/bitpay/bitcore-explorers/commit/1f1334f7ea7f75ed80f62d379613a961a66403f2).
-
 ## Getting started
 
 Be careful! When using this module, the information retrieved from remote servers may be compromised and not reflect the actual state of the blockchain.
