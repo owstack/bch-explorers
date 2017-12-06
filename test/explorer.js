@@ -49,7 +49,7 @@ describe('Explorer', function() {
 
   describe('getting unspent utxos', function() {
     var explorer = new Explorer();
-    var address = 'HBqt2mntvCKa84VGhjsK8yz71FzA9Hp8X6';
+    var address = '371mZyMp4t6uVtcEr4DAAbTZyby9Lvia72';
     beforeEach(function() {
       explorer.requestPost = sinon.stub();
       explorer.requestPost.onFirstCall().callsArgWith(2, null, {
