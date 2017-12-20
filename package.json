@@ -1,6 +1,6 @@
 {
   "name": "@owstack/bch-explorers",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Module to query blockchain apis for Bch Node.",
   "main": "index.js",
   "directories": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/owstack/bch-explorers",
   "dependencies": {
-    "@owstack/bch-lib": "^0.0.5",
+    "@owstack/bch-lib": "^0.0.6",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   },
